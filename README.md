@@ -3,6 +3,7 @@
 ### This is a javascript code that can be used for drawing a figure of data increasing over time.
 
 ## methods:
+<br/>
 ### controller.run_time()
 call this method to start time.
 
@@ -10,6 +11,7 @@ call this method to start time.
 this method will increase function to the value in the parentheses.
 
 ### controller.stop()
+this method pauses the time elapsing
 
 ### ui.controller.changeColor("#------")
 use this method to change figure color using a hexadecimal code of desired color.
