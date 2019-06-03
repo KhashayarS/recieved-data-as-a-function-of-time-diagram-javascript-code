@@ -16,3 +16,5 @@ use this method to change figure color using a hexadecimal code of desired color
 
 ### controller.user_interruption()
 this method makes a section on the diagram with red color (becomes two distinct section)
+
+![](images/photo0.png)
