@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="main.css">
+    <script type="text/javascript" src="code.min.js" defer></script>
+  </head>
+  <body>
+
+    <div class="figure-container">
+      <svg width="1000" height="500" xmlns="http://www.w3.org/2000/svg" style="background-color: #152023">
+
+          <g id="t_values" stroke="white">
+
+          <line id="first_t_value" x1="144.7" y1="400" x2="144.7" y2="395" stroke-width="2"/>
+          <text transform="matrix(1 0 0 1 139.7 420)" font-family="'TimesNewRomanPSMT'" font-size="12">1s</text>
+
+          <line x1="239.5" y1="400" x2="239.5" y2="395" stroke-width="2"/>
+          <text transform="matrix(1 0 0 1 234.5 420)" font-family="'TimesNewRomanPSMT'" font-size="12">2s</text>
+
+          <line x1="334.2" y1="400" x2="334.2" y2="395" stroke-width="2"/>
+          <text transform="matrix(1 0 0 1 329.2 420)" font-family="'TimesNewRomanPSMT'" font-size="12">3s</text>
+
+          <line x1="428.9" y1="400" x2="428.9" y2="395" stroke-width="2"/>
+          <text transform="matrix(1 0 0 1 423.9 420)" font-family="'TimesNewRomanPSMT'" font-size="12">4s</text>
+
+          <line x1="523.7" y1="400" x2="523.7" y2="395" stroke-width="2"/>
+          <text transform="matrix(1 0 0 1 518.7 420)" font-family="'TimesNewRomanPSMT'" font-size="12">5s</text>
+
+          <line x1="618.4" y1="400" x2="618.4" y2="395" stroke-width="2"/>
+          <text transform="matrix(1 0 0 1 613.4 420)" font-family="'TimesNewRomanPSMT'" font-size="12">6s</text>
+
+          <line x1="713.2" y1="400" x2="713.2" y2="395" stroke-width="2"/>
+          <text transform="matrix(1 0 0 1 708.2 420)" font-family="'TimesNewRomanPSMT'" font-size="12">7s</text>
+
+          <line x1="807.9" y1="400" x2="807.9" y2="395" stroke-width="2"/>
+          <text transform="matrix(1 0 0 1 802.9 420)" font-family="'TimesNewRomanPSMT'" font-size="12">8s</text>
+
+          <line x1="902.6" y1="400" x2="902.6" y2="395" stroke-width="2"/>
+          <text transform="matrix(1 0 0 1 897.6 420)" font-family="'TimesNewRomanPSMT'" font-size="12">9s</text>
+
+
+        </g>
+        <g id="y_values" stroke="white">
+          <line x1="50" y1="225" x2="950" y2="225" stroke-width="2"/>
+          <text transform="matrix(1 0 0 1 10 228)" font-family="'TimesNewRomanPSMT'" font-size="12">1.5X</text>
+
+        </g>
+
+
+        <path id="coords_axis" d="M47.5 402.5 H 950 M50 400 V 50" stroke="white" stroke-width="5"/>
+
+        <!-- <rect id="value_text_background" x="360" y="160" width="280" height="110" fill="transparent"/>
+        <text id="value_text" transform="matrix(1 0 0 1 400 240)" font-family="'TimesNewRomanPSMT'" font-size="50" fill="yellow"></text> -->
+
+
+        <g id="figure">
+
+          <path id="diagram_background" d="M50 400 V 400 Z" stroke-width="0" stroke="#" fill="#0FF27180"/>
+          <path id="diagram_path" d="M50 400" stroke-width="12" stroke="#0FF271" fill="transparent"/>
+          <polygon id="arrow_tip" fill="#0FF271" points="50,400 50,400 50,400" transform="scale(1)"/>
+
+
+          <path id="diagram_background_dc" d="M50 400 V 400 Z" stroke-width="0" stroke="#" fill="#FF0000BF"/>
+          <path id="diagram_path_dc" d="M50 400" stroke-width="13" stroke="#FF0000" fill="transparent"/>
+          <polygon id="arrow_tip_dc" fill="#FF0000" points="50,400 50,400 50,400" transform="scale(1)"/>
+
+
+          <!-- <path id="fig_path" d="M50 400 Q 50.05 397.3, 50.1 395.6" stroke-width="6" stroke="#0FF271" fill="transparent"/> -->
+        </g>
+
+        <g id="value_illustrator">
+          <!-- <rect id="value_text_background" x="400" y="160" width="200" height="80" fill="#0000004D"/>
+          <text id="value_text" text-anchor="middle" alignment-baseline="middle" transform="matrix(1 0 0 1 500 200)" font-family="'TimesNewRomanPSMT'" font-size="50" fill="#0FF271">1.04x</text> -->
+          <!-- <text id="timer_text_value" text-anchor="middle" alignment-baseline="middle" transform="matrix(1 0 0 1 500 200)" font-family="'TimesNewRomanPSMT'" font-size="30" fill="#FFFFFF">Next round in 2.6s</text> -->
+        </g>
+
+
+
+        <!-- figure range values -->
+
+
+        <!-- <path id="fig_path2" d="M50 400 Q 50.002 400, 600 150" stroke-width="6" stroke="#0FF271" fill="transparent"/> -->
+
+      </svg>
+
+      <div class="buttons">
+        <button id="start-btn" type="button" name="button" id="color-button">Start</button>
+        <button id="pause-btn" type="button" name="button" id="color-button">User Pause</button>
+        <button id="stop-btn" type="button" name="button" id="color-button">Stop</button>
+        <button id="reset-btn" type="button" name="button" id="color-button">Reset</button>
+        <button id="change-color" type="button" name="button" id="color-butto n">Change Color</button>
+        <button id="change-bg-color" type="button" name="button" id="color-button">Change Background</button>
+      </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+  </body>
+</html>
