@@ -7,8 +7,8 @@
 ### controller.run_time()
 call this method to start time.
 
-### controller.raise_X("------")
-this method will increase function to the value in the parentheses.
+### controller.raise_X(new_value)
+this method will increase function to the new_value in the parentheses.
 
 ### controller.stop()
 this method pauses the time elapsing
