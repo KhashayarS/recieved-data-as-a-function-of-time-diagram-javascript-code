@@ -3,7 +3,7 @@
 ### This is a javascript code that can be used for drawing a figure of data increasing over time.
 
 ## methods:
-<br/>
+
 ### controller.run_time()
 call this method to start time.
 
